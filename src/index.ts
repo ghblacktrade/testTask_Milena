@@ -65,7 +65,7 @@ const users: User[] = [
 
 //здесь получаем этих юсеров
 
-const getUsers = (query: any): User[] => {
+const getUsers = (query: any): User[] => { //пометка для any
 
     let searchUsers: User[] = []
 
