@@ -97,7 +97,7 @@ app.get('/users', (req: Request, res: Response) => {
     setTimeout(() => {
 
         res.status(200).send(searchUsers)
-    })
+    }, 5000)
 })
 
 
